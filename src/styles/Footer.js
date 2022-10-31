@@ -115,7 +115,17 @@ const FooterStyle = styled.div`
     }
   }
   @media only screen and (max-width: 376px) {
-    display: none;
+    margin-top: -2%;
+    .FooterLogo {
+      display: block;
+      align-items: flex-start;
+    }
+    p {
+      font-weight: 250;
+      font-size: 10px;
+      line-height: 0;
+      margin-left: -6%;
+    }
   }
 `;
 
