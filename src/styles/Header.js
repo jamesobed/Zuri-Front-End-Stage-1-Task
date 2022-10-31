@@ -4,11 +4,11 @@ const ProfileStyle = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3%;
+  padding-top: 4%;
   gap: 2.1%;
   isolation: isolate;
 
-  width: 94%;
+  width: 100%;
   height: 142px;
 
   /* Inside auto layout */
@@ -18,7 +18,7 @@ const ProfileStyle = styled.div`
   align-self: stretch;
   flex-grow: 0;
 
-  img {
+  #profileImage {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,14 +61,14 @@ const ProfileStyle = styled.div`
   }
 
   #name {
-    width: 94%;
+    width: 86%;
     height: 30px;
 
     /* Text xl/Bold */
 
     font-family: "Inter";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 750;
     font-size: 20px;
     line-height: 30px;
     /* identical to box height, or 150% */
@@ -85,9 +85,14 @@ const ProfileStyle = styled.div`
     order: 0;
     flex-grow: 1;
   }
+  #slack {
+    display: none;
+  }
 
   #topCircle {
     position: absolute;
+    padding-top: 4%;
+
     width: 3%;
     height: 3%;
     right: 14%;
@@ -114,19 +119,19 @@ const ProfileStyle = styled.div`
   }
 
   @media only screen and (max-width: 730px) {
-    img {
+    #profileImage {
       width: 15%;
       height: 57%;
     }
   }
   @media only screen and (max-width: 500px) {
-    img {
+    #profileImage {
       width: 20%;
       height: 60%;
     }
   }
   @media only screen and (max-width: 280px) {
-    img {
+    #profileImage {
       width: 20%;
       height: 50%;
     }
@@ -135,7 +140,7 @@ const ProfileStyle = styled.div`
     .mobileView {
       visibility: visible;
     }
-    img {
+    #profileImage {
       width: 20%;
       height: 60%;
     }
@@ -144,6 +149,26 @@ const ProfileStyle = styled.div`
     .webView {
       display: none;
       visibility: hidden;
+    }
+    margin-top: 3%;
+
+    #topCircle {
+      margin-top: 6%;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    #topCircle {
+      margin-top: 2%;
+    }
+  }
+  @media only screen and (max-width: 520px) {
+    #topCircle {
+      margin-top: 4%;
+    }
+  }
+  @media only screen and (max-width: 353px) {
+    #topCircle {
+      margin-top: 6%;
     }
   }
 `;

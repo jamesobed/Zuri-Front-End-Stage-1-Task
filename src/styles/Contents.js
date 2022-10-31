@@ -7,8 +7,8 @@ const ContentsLinks = styled.div`
   justify-content: center;
   /* padding-left: 3%;
   padding-right: 3%; */
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 7%;
+  margin-right: 7%;
   margin-top: 3%;
   margin-bottom: 2%;
   gap: 24px;
@@ -31,7 +31,7 @@ const ContentsLinks = styled.div`
     padding: 0px;
     gap: 12px;
 
-    width: 94%;
+    width: 86%;
     height: 76px;
 
     /* Shadow/xs */
@@ -51,11 +51,11 @@ const ContentsLinks = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 24px 32px;
+    padding: 3% 3%;
     gap: 8px;
 
-    width: 94%;
-    height: 5%;
+    width: 86%;
+    height: 1%;
 
     /* Gray/200 */
 
@@ -81,7 +81,7 @@ const ContentsLinks = styled.div`
 
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 90%;
     line-height: 100%;
     /* identical to box height, or 156% */

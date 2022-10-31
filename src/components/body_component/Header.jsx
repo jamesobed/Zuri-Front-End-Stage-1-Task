@@ -6,7 +6,7 @@ import mobileButton from "../../assets/svg/mobileButton.svg";
 function Header() {
   return (
     <ProfileStyle>
-      <img src={passport} alt="Profile " />
+      <img src={passport} alt="Profile " id="profileImage" />
       <small id="topCircle">
         {/* <div className="webView"> */}
         <img className="webView" src={ArrowButton} alt="ArrowButton" />
@@ -20,6 +20,7 @@ function Header() {
       </small>
       <div className="Details">
         <small id="name">Obed James</small>
+        <small id="slack">sirObed</small>
       </div>
     </ProfileStyle>
   );
