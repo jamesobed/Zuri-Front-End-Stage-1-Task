@@ -9,10 +9,9 @@ function Footer() {
         <div className="FooterLogo">
           <img src={ingresive} alt="ingressive" />
           <p>HNG Internship 9 Frontend Task</p>
-          <img src={Zurilogo} alt="Zuri logo" />
+          <img src={Zurilogo} alt="Zuri logo" id="4g" />
         </div>
       </div>
-      
     </FooterStyle>
   );
 }

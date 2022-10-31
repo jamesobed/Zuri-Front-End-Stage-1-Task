@@ -12,7 +12,7 @@ const BodyStyle = styled.div`
   height: 998px;
   left: 0px;
   top: 0px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 `;
 
 export default BodyStyle;

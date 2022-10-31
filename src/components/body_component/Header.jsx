@@ -9,7 +9,7 @@ function Header() {
       <img src={passport} alt="Profile " />
       <small id="topCircle">
         {/* <div className="webView"> */}
-        <img lassName="webView" src={ArrowButton} alt="ArrowButton" />
+        <img className="webView" src={ArrowButton} alt="ArrowButton" />
         {/* </div> */}
 
         {/* <div className="mobileView"> */}

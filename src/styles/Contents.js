@@ -4,7 +4,11 @@ const ContentsLinks = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  /* padding-left: 3%;
+  padding-right: 3%; */
   margin-left: 3%;
+  margin-right: 3%;
   margin-top: 3%;
   margin-bottom: 2%;
   gap: 24px;
@@ -71,15 +75,15 @@ const ContentsLinks = styled.div`
     text-decoration: none;
 
     /* width: 101px; */
-    height: 28px;
+    height: 100%;
 
     /* Text lg/Medium */
 
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 90%;
+    line-height: 100%;
     /* identical to box height, or 156% */
 
     display: flex;
@@ -98,7 +102,7 @@ const ContentsLinks = styled.div`
   }
 
   #myLink:hover {
-    background-color: aqua;
+    background-color: #d0d5dd;
   }
 `;
 

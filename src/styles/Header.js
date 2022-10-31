@@ -5,7 +5,7 @@ const ProfileStyle = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 3%;
-  gap: 24px;
+  gap: 2.1%;
   isolation: isolate;
 
   width: 94%;
@@ -25,11 +25,11 @@ const ProfileStyle = styled.div`
     align-items: center;
     padding: 0px;
 
-    width: 88px;
-    height: 88px;
+    width: 7%;
+    height: 60%;
 
     background: url(.jpg);
-    border-radius: 275px;
+    border-radius: 50%;
 
     /* Inside auto layout */
 
@@ -39,6 +39,8 @@ const ProfileStyle = styled.div`
     z-index: 0;
   }
   .Details {
+    margin-top: 2%;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -86,11 +88,10 @@ const ProfileStyle = styled.div`
 
   #topCircle {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 208px;
+    width: 3%;
+    height: 3%;
+    right: 14%;
     top: -20px;
-    padding-top: 3%;
 
     /* Base/White */
 
@@ -112,9 +113,31 @@ const ProfileStyle = styled.div`
     visibility: hidden;
   }
 
+  @media only screen and (max-width: 730px) {
+    img {
+      width: 15%;
+      height: 57%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    img {
+      width: 20%;
+      height: 60%;
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    img {
+      width: 20%;
+      height: 50%;
+    }
+  }
   @media only screen and (max-width: 376px) {
     .mobileView {
       visibility: visible;
+    }
+    img {
+      width: 20%;
+      height: 60%;
     }
   }
   @media only screen and (max-width: 376px) {
