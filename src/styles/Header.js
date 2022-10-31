@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+// import camera from "../assets/svg/camera.svg";
+// import cam from "../assets/img/cam.png";
+
 const ProfileStyle = styled.div`
   display: flex;
   flex-direction: column;
@@ -27,6 +30,7 @@ const ProfileStyle = styled.div`
 
     width: 7%;
     height: 60%;
+    margin-bottom: 1%;
 
     background: url(.jpg);
     border-radius: 50%;
@@ -37,6 +41,7 @@ const ProfileStyle = styled.div`
     order: 0;
     flex-grow: 0;
     z-index: 0;
+    transition: 0.5s all ease-in-out;
   }
   .Details {
     margin-top: 2%;
@@ -47,6 +52,7 @@ const ProfileStyle = styled.div`
     align-items: center;
     padding: 0px;
     gap: 8px;
+    margin-bottom: 2%;
 
     width: 100%;
     height: 30px;
@@ -61,6 +67,8 @@ const ProfileStyle = styled.div`
   }
 
   #name {
+    margin-bottom: 2%;
+
     width: 86%;
     height: 30px;
 
@@ -89,6 +97,9 @@ const ProfileStyle = styled.div`
     display: none;
   }
 
+  .hoverCam {
+    visibility: hidden;
+  }
   #topCircle {
     position: absolute;
     padding-top: 4%;
@@ -112,6 +123,12 @@ const ProfileStyle = styled.div`
     order: 2;
     flex-grow: 0;
     z-index: 2;
+  }
+
+  #profileImage:hover {
+    /* transform: scale(1.5); */
+    background: url("../assets/img/cam.png");
+    opacity: 0.3;
   }
 
   .mobileView {

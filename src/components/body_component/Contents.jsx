@@ -1,4 +1,5 @@
 import ContentsLinks from "../../styles/Contents";
+import ReactTooltip from "react-tooltip";
 
 function Contents() {
   const myLinks = [
@@ -31,7 +32,7 @@ function Contents() {
       label: "Background Check for Coders",
       href: "https://background.zuri.team",
       id: "pitch",
-      title: "Click on the link to view zuri software developers",
+      title: "Click on the link to view zuri software developers team",
     },
     {
       label: "Design Books",
@@ -43,11 +44,19 @@ function Contents() {
   return (
     <ContentsLinks>
       {myLinks.map((link) => (
-        <li id="myLink" key={link.label} title={link.title}>
-          <a href={link.href} target="blank">
-            {link.label}
-          </a>
-        </li>
+        <>
+          <li
+            id="myLink"
+            key={link.label}
+            // title={link.title}
+            data-tip={link.title}
+          >
+            <a href={link.href} target="blank">
+              {link.label}
+            </a>
+          </li>
+          <ReactTooltip />
+        </>
       ))}
     </ContentsLinks>
   );
