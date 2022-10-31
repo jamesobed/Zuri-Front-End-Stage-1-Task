@@ -7,6 +7,7 @@ function Body() {
     <>
       <BodyStyle>
         <Header />
+        {/* <br/> */}
         <Contents />
         <Social />
       </BodyStyle>

@@ -9,7 +9,7 @@ const ContentsLinks = styled.div`
   padding-right: 3%; */
   margin-left: 7%;
   margin-right: 7%;
-  margin-top: 3%;
+  margin-top: 6%;
   margin-bottom: 2%;
   gap: 24px;
 

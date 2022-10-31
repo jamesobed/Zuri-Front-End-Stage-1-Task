@@ -48,8 +48,8 @@ function Contents() {
           <li
             id="myLink"
             key={link.label}
-            // title={link.title}
-            data-tip={link.title}
+            title={link.title}
+            // data-tip={link.title}
           >
             <a href={link.href} target="blank">
               {link.label}

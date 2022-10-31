@@ -5,7 +5,7 @@ const FooterStyle = styled.div`
   align-items: center;
   /* padding: 48px 0px; */
   gap: 4%;
-
+  margin-top: 3%;
   position: absolute;
   width: 100%;
   height: 160px;
