@@ -12,8 +12,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/*" element={<Body />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route path="*" element={<Body />} />
         </Routes>
         <Footer />
       </Router>
