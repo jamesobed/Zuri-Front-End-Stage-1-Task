@@ -64,6 +64,7 @@ export const ContactStyle = styled.div`
     align-items: flex-start;
     padding: 0px;
     gap: 48px;
+    margin-left: 5%;
 
     /* width: 720px; */
     width: 80%;
@@ -208,7 +209,7 @@ export const ContactStyle = styled.div`
     gap: 8px;
 
     /* width: 720px; */
-    width: 100%;
+    width: 103%;
     height: 48px;
 
     /* Primary/600 */
@@ -332,7 +333,7 @@ export const ContactStyle = styled.div`
     gap: 6px;
 
     /* width: 720px; */
-    width: 104%;
+    width: 103%;
     height: 158px;
 
     /* Inside auto layout */
@@ -467,6 +468,7 @@ export const ContactStyle = styled.div`
     }
     .formButton {
       margin-top: 7rem;
+      /* width: 100%; */
     }
 
     .contentContainer {
