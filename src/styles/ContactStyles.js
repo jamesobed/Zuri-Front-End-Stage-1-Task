@@ -230,6 +230,28 @@ export const ContactStyle = styled.div`
     align-self: stretch;
     flex-grow: 0;
     cursor: pointer;
+
+    /* width: 114px;
+    height: 24px; */
+
+    /* Text md/Semibold */
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    /* Base/White */
+
+    color: #ffffff;
+
+    /* Inside auto layout
+
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
   }
   .name {
     display: flex;
