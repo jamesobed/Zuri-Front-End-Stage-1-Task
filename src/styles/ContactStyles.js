@@ -141,7 +141,10 @@ export const ContactStyle = styled.div`
     flex-grow: 0;
 
     @media screen and (max-width: 400) {
-      font-size: 24px;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      height: 10px;
     }
   }
   .sentence {
@@ -494,7 +497,8 @@ export const ContactStyle = styled.div`
     }
 
     .contentContainer {
-      width: 96%;
+      margin-left: 4%;
+      width: 94%;
     }
     #message {
       width: 100%;
